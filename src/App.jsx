@@ -2,6 +2,8 @@ import { useState } from "react"
 import reactLogo from "./assets/react.svg"
 import Camera from "./icons/Camera"
 import Microphone from "./icons/Microphone"
+import GridDots from "./icons/GridDots"
+import MagnifyingGlass from "./icons/MagnifyingGlass"
 import "./App.css"
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
     <div className="App">
       <Camera />
       <Microphone />
+      <GridDots />
+      <MagnifyingGlass />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
